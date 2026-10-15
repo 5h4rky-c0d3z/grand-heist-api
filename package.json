@@ -1,7 +1,7 @@
 {
-  "name": "your-game-api",
+  "name": "grand-heist-api",
   "version": "1.0.0",
-  "description": "CHANGE_ME - one sentence about your game (CS 313 Software Engineering 1)",
+  "description": "My build for a strategic, push-your-luck trivia heist game; Grand Heist for CS 313.",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
@@ -19,7 +19,7 @@
   "engines": {
     "node": ">=22"
   },
-  "author": "CHANGE_ME - your full name",
+  "author": "Jorge Kristoffer C. Bono",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^18.0.7",
