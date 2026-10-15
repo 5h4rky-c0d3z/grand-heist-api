@@ -1,6 +1,6 @@
 # Grand Heist API
 
-Backend API for **Grand Heist**, a tournament game for the SorSU Bulan Campus library.
+Backend API for **Grand Heistg**, a tournament game for the SorSU Bulan Campus library.
 CS 313 Software Engineering 1, A.Y. 2026-2027.
 
 - Developer: Jorge Kristoffer C. Bono (5h4rky-c0d3z), BSCS 3-2
@@ -60,7 +60,7 @@ Base URL: `http://localhost:3001/api/v1`
 
 ## What "completed" means in my game
 
-[One or two sentences: when does a player count as having completed a game? For example: "A player completed the game when they answered every question, even if some answers were wrong or timed out."]
+A player completed the game if they escaped the vault (`players.status = 'escaped'`). Players who were busted did not complete. A game is finished when `sessions.status = 'ended'`.
 
 ## Tables
 
