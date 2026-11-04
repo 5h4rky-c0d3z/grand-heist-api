@@ -9,5 +9,4 @@ app.listen(env.port, (error) => {
     console.error(`Could not start the API: ${error.message}`);
     process.exit(1);
   }
-  console.log(`API listening on http://localhost:${env.port}/api/v1`);
 });
